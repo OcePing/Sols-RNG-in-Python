@@ -5,6 +5,8 @@ from colorama import Fore
 import keyboard
 rollcount = 0
 
+# PRESS R TO ROLL
+
 weather = ['Windy', 'Snowy', 'Rainy', 'Starfall', 'Null', 'Glitched']
 random.choices(weather, weights=(0.2, 0.133, 0.133, 0.0166, 0.0075, 0.00333), k=1)
 
